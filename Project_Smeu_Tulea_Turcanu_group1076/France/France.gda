@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>France</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>France.shp</path>
+            </datasource>
+            <layername>France</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>NUTS_ID</var>
+                <var>LEVL_CODE</var>
+                <var>CNTR_CODE</var>
+                <var>NAME_LATN</var>
+                <var>NUTS_NAME</var>
+                <var>MOUNT_TYPE</var>
+                <var>URBN_TYPE</var>
+                <var>COAST_TYPE</var>
+                <var>
+                    T_p
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    B_r
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    D_r
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    M_r
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>France</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>custom</weights_type>
+                        <path>France.gal</path>
+                        <id_variable>NUTS_ID</id_variable>
+                        <symmetry>unknown</symmetry>
+                        <num_observations>101</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>10</max_neighbors>
+                        <mean_neighbors>4.7128712871287126</mean_neighbors>
+                        <median_neighbors>5</median_neighbors>
+                        <non_zero_perc>4.6662091951769433</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>M_r</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name>D_r</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
