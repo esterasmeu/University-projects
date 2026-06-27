@@ -12,7 +12,7 @@
 - explores marketing strategies and data-driven insights.  
 
 ## 🌍 Macroeconomic Analysis in GeoDa  
-**File:** `Project_Smeu_Tulea_Turcanu_group1076`  
+**Folder:** `Project_Smeu_Tulea_Turcanu_group1076`  
 - collaborative project created during the first semester, 2nd year
 - analyzes the impact of migration on births, population, and deaths.  
 - focuses on **France and Germany at the NUTS3 level**.  
